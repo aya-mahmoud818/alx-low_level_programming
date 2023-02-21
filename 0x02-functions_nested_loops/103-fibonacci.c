@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	unsigned long prev = 1, prev2 = 2, sum = 0, temp;
+	unsigned long prev = 1, prev2 = 2, sum = 2, temp;
 
 	while (prev2 < 4000000)
 	{
