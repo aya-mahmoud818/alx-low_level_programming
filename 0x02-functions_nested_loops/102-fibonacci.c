@@ -10,9 +10,9 @@
 int main(void)
 {
 	int n;
-	int prev = 1;
-	int prev2 = 2;
-	int temp;
+	long unsigned int prev = 1;
+	long unsigned int prev2 = 2;
+	long unsigned int temp;
 
 	printf("%d, ", 1);
 	printf("%d, ", 2);
@@ -23,10 +23,10 @@ int main(void)
 		prev2 = temp + prev2;
 		if (n == 50)
 		{
-			printf("%d\n", prev2);
+			printf("%lu\n", prev2);
 		} else
 		{
-			printf("%d, ", prev2);
+			printf("%lu, ", prev2);
 		}
 	}
 	return (0);
