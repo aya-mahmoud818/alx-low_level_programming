@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
 	int sum = 0;
-	
+
 	for (n = 0; n < 1024; n++)
 	{
 		if (n % 5 == 0 || n % 3 == 0)
@@ -19,6 +19,6 @@ int main(void)
 			sum = sum + n;
 		}
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
