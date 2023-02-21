@@ -10,9 +10,7 @@
 int main(void)
 {
 	int n;
-	long unsigned int prev = 1;
-	long unsigned int prev2 = 2;
-	long unsigned int temp;
+	unsigned long prev = 1prev2 = 2, temp;
 
 	printf("%d, ", 1);
 	printf("%d, ", 2);
