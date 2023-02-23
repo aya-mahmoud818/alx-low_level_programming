@@ -17,17 +17,19 @@ void print_triangle(int size)
 		{
 			if (column <= size)
 			{
-				printf("#");
+				_putchar('#');
 			}
 			else
 			{
-				printf(" ");
+				_putchar(' ');
 			}
 		}
 		if (row != 0)
 		{
-			printf("\n");
+			_putchar("\n");
 		}
 	}
-	printf("\n");
+	_putchar("\n");
+
+
 }
