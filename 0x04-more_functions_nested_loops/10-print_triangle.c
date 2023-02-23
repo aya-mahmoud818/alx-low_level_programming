@@ -26,10 +26,10 @@ void print_triangle(int size)
 		}
 		if (row != 0)
 		{
-			_putchar("\n");
+			_putchar('\n');
 		}
 	}
-	_putchar("\n");
+	_putchar('\n');
 
 
 }
