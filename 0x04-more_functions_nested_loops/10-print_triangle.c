@@ -24,6 +24,10 @@ void print_triangle(int size)
 				printf(" ");
 			}
 		}
-		printf("\n");
+		if (row != 0)
+		{
+			printf("\n");
+		}
 	}
+	printf("\n");
 }
