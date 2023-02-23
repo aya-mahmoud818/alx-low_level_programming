@@ -5,9 +5,9 @@
  * @a: first int to be mul
  * @b: second int to be mul
  *
- * Return: always 0
+ * Return: result of mul
  */
 int mul(int a, int b)
 {
-	_putchar(a * b);
+	return (a * b);
 }
