@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * reset_to_98 -enetry
- *
- * @n: point to the value
- *
- * Return: void
+ * reset_to_98 - Reset the parameter to 98
+ *@n: Pointe to the value we want to set to 98
+ *Return : void
  */
 void reset_to_98(int *n)
 {
-	int *n = &n;
-	*n = 98;
+*n = 98;
 }
