@@ -4,16 +4,17 @@
  *
  * @s: string
  *
- * Return: 0
+ * Return: int
  */
 int _strlen(char *s)
 {
-	int j = 0;
+	int j = 0, len = 0;
 
 	while (s[j] != '/0')
 	{
+		len+ = 1;
 		j++;
 	}
 
-	_putchar(j)
+	return (j);
 }
