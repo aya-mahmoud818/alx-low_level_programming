@@ -4,7 +4,7 @@
  *
  * @s: string
  *
- * Return: 0
+ * Return: char
  */
 char *string_toupper(char *s)
 {
@@ -18,6 +18,6 @@ char *string_toupper(char *s)
 		}
 		i++;
 	}
-	return (0);
+	return (s);
 }
 
